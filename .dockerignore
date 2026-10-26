@@ -1,0 +1,7 @@
+.venv
+.git
+data
+artifacts*
+mlruns
+__pycache__
+*.ipynb
