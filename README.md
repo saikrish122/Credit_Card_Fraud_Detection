@@ -10,7 +10,7 @@ An imbalanced-classification portfolio project comparing Logistic Regression, a 
 
 The screenshot below shows a successful **HTTP 200** response from the local `/predict` endpoint using the validation-selected Random Forest. The request returned a fraud score below the decision threshold and `flagged: false`.
 
-![Successful local FastAPI prediction with HTTP 200](images/api_prediction.png)
+![Successful local FastAPI prediction with HTTP 200](api_prediction.png)
 
 The displayed 21.6 ms is the timing of this single request within the prediction handler, not an average latency benchmark or proof of cloud deployment.
 
